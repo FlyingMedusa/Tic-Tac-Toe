@@ -20,16 +20,19 @@ while True:
         board = tm.move(tm.current_player(x), board)
         tm.show(board)
         if tm.is_winner(board):
+            if x:
+                winner = "X"
+            else:
+                winner = "O"
+
+            print("Congratulations to the player", winner + "!")
             break
-        move_counter += 1
-        x = not x
-
-    if x:
-        winner = "X"
-    else:
-        winner = "O"
-
-    print("Congratulations to the player", winner + "!")
+        else:
+            if move_counter == 8:
+                print("The match ended in a draw!")
+                break
+            move_counter += 1
+            x = not x
 
     answer = ts.run_again()
     if answer == 'y':

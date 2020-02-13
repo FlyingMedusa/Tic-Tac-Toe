@@ -19,4 +19,4 @@ Users' moves are marked by either X or O.
 In order to choose the position, user enters a cluster of a numerical row index,
  a hyphen, and a name of a column (A, B, or C).
 
-Game ends when one of the players wins.
+Game ends when one of the players wins or when the game ends in a draw.
