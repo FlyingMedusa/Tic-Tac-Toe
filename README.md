@@ -1,4 +1,4 @@
-## Tic Tac Toe game :computer: :computer_mouse:
+## Tic Tac Toe game - CLI edition :computer: :computer_mouse:
 
 Python version:     Python 3
 
